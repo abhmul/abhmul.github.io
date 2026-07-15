@@ -162,13 +162,33 @@ dl {
 
 .profile-page {
   display: grid;
+  grid-template-areas:
+    "aside eyebrow"
+    "aside title"
+    "aside details";
   grid-template-columns: minmax(12rem, 15rem) minmax(0, 1fr);
-  gap: clamp(3rem, 9vw, 7rem);
+  grid-template-rows: auto auto 1fr;
+  column-gap: clamp(3rem, 9vw, 7rem);
   padding-block: clamp(3.5rem, 8vw, 6rem);
 }
 
 .profile-aside {
+  grid-area: aside;
+  align-self: start;
   padding-top: 0.35rem;
+}
+
+.profile-eyebrow {
+  grid-area: eyebrow;
+}
+
+.profile-title {
+  grid-area: title;
+}
+
+.profile-details {
+  grid-area: details;
+  min-width: 0;
 }
 
 .portrait {
@@ -378,22 +398,20 @@ h1 {
   }
 
   .profile-page {
+    grid-template-areas:
+      "eyebrow"
+      "title"
+      "aside"
+      "details";
     grid-template-columns: 1fr;
-    gap: 2.75rem;
+    grid-template-rows: auto;
     padding-block: 3rem 4rem;
   }
 
   .profile-aside {
     width: min(64vw, 15rem);
+    margin: 0.25rem 0 2.75rem;
     padding-top: 0;
-  }
-
-  .profile-copy {
-    grid-row: 1;
-  }
-
-  .profile-aside {
-    grid-row: 2;
   }
 
   .publication {
