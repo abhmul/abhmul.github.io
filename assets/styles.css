@@ -166,7 +166,7 @@ dl {
     "aside eyebrow"
     "aside title"
     "aside details";
-  grid-template-columns: minmax(18rem, 22.5rem) minmax(0, 1fr);
+  grid-template-columns: minmax(21rem, 26.25rem) minmax(0, 1fr);
   grid-template-rows: auto auto 1fr;
   column-gap: clamp(3rem, 7vw, 5rem);
   padding-block: clamp(3.5rem, 8vw, 6rem);
@@ -380,7 +380,7 @@ h1 {
   margin: 0;
 }
 
-@media (max-width: 60rem) {
+@media (max-width: 65rem) {
   .profile-page {
     grid-template-areas:
       "eyebrow"
@@ -393,7 +393,7 @@ h1 {
   }
 
   .profile-aside {
-    width: min(100%, 22.5rem);
+    width: min(100%, 26.25rem);
     margin: 0.25rem 0 2.75rem;
     padding-top: 0;
   }
