@@ -173,10 +173,9 @@ dl {
 
 .portrait {
   width: 100%;
-  aspect-ratio: 1;
+  height: auto;
   border-radius: 1.2rem;
-  object-fit: cover;
-  filter: saturate(0.85) contrast(1.03);
+  filter: saturate(0.9) contrast(1.02);
 }
 
 .profile-links {

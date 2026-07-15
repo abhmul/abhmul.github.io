@@ -22,7 +22,7 @@ Then open <http://localhost:4000>.
 - Publications: `publications/index.html`
 - CV: `cv/index.html`
 - Shared styles: `assets/styles.css`
-- Portrait: `assets/abhijeet-mulgund.jpg`
+- Portrait: `assets/abhijeet-mulgund-2026.jpg`
 - Browser icon: `assets/favicon.svg`
 
 Push changes to `main`; GitHub Pages will publish them automatically.
