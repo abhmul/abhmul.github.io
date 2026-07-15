@@ -18,8 +18,10 @@ Then open <http://localhost:4000>.
 
 ## Updating
 
-- Page content: `index.html`
-- Styles: `assets/styles.css`
+- About and contact: `index.html`
+- Publications: `publications/index.html`
+- CV: `cv/index.html`
+- Shared styles: `assets/styles.css`
 - Portrait: `assets/abhijeet-mulgund.jpg`
 - Browser icon: `assets/favicon.svg`
 
