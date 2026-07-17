@@ -4,7 +4,7 @@ A deliberately simple personal academic website for Abhijeet Mulgund.
 
 ## Architecture
 
-The site is plain semantic HTML and CSS, with no framework, build step, JavaScript, package dependencies, analytics, or external font requests. GitHub Pages serves the files directly from the root of the `main` branch.
+The site is plain semantic HTML and CSS, with no framework, build step, package dependencies, or external font requests. GitHub Pages serves the files directly from the root of the `main` branch. A small GoatCounter script provides privacy-friendly visitor analytics.
 
 ## Local preview
 
