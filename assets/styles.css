@@ -324,34 +324,6 @@ h1 {
   margin-bottom: 1.5rem;
 }
 
-.cv-actions {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 1rem 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.cv-actions a {
-  font-size: 0.9rem;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.document-button {
-  display: inline-block;
-  padding: 0.65rem 1rem;
-  border: 1px solid var(--accent-dark);
-  border-radius: 0.2rem;
-  background: var(--accent-dark);
-  color: #fff;
-}
-
-.document-button:hover {
-  background: transparent;
-  color: var(--accent-dark);
-}
-
 .pdf-viewer {
   display: block;
   width: 100%;
