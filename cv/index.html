@@ -4,12 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Curriculum vitae for Abhijeet Mulgund.">
-  <meta name="robots" content="noindex">
   <meta name="theme-color" content="#f6f2e9">
-  <meta http-equiv="refresh" content="0; url=https://tiny.cc/abhijeet-cv">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CV · Abhijeet Mulgund">
+  <meta property="og:description" content="Curriculum vitae for Abhijeet Mulgund.">
+  <meta property="og:url" content="https://abhmul.github.io/cv/">
 
   <title>CV · Abhijeet Mulgund</title>
-  <link rel="canonical" href="https://tiny.cc/abhijeet-cv">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/assets/styles.css?v=9">
 </head>
@@ -23,20 +25,25 @@
         <ul class="nav-list">
           <li><a href="/">About</a></li>
           <li><a href="/publications/">Publications</a></li>
-          <li><a href="https://tiny.cc/abhijeet-cv" aria-current="page">CV</a></li>
+          <li><a href="/cv/" aria-current="page">CV</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <main class="shell content-page short-page" id="main-content">
+  <main class="shell content-page cv-page" id="main-content">
     <header class="page-heading">
       <p class="eyebrow">Curriculum vitae</p>
       <h1>CV</h1>
-      <p>Redirecting to the current CV.</p>
+      <p>View the document below or open it separately.</p>
     </header>
 
-    <a class="document-button" href="https://tiny.cc/abhijeet-cv">Open current CV <span aria-hidden="true">↗</span></a>
+    <div class="cv-actions">
+      <a class="document-button" href="https://tiny.cc/abhijeet-cv" target="_blank" rel="noopener">Open CV separately <span aria-hidden="true">↗</span></a>
+    </div>
+
+    <iframe class="pdf-viewer" src="https://tiny.cc/abhijeet-cv" title="Curriculum vitae for Abhijeet Mulgund"></iframe>
+    <p class="pdf-fallback">If the viewer does not load, <a href="https://tiny.cc/abhijeet-cv" target="_blank" rel="noopener">open the CV separately</a>.</p>
   </main>
 
   <footer class="site-footer">

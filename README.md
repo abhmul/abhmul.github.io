@@ -20,7 +20,7 @@ Then open <http://localhost:4000>.
 
 - About and contact: `index.html`
 - Publications: `publications/index.html`
-- CV redirect: `cv/index.html` (destination managed at `https://tiny.cc/abhijeet-cv`)
+- CV page: `cv/index.html` (document destination managed at `https://tiny.cc/abhijeet-cv`)
 - Homepage styles: `assets/home.css`
 - Interior-page styles: `assets/styles.css`
 - Portrait: `assets/abhijeet-mulgund-2026.jpg`
